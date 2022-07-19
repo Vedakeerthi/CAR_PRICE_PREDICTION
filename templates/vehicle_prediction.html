@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <form action="{{url_for('predict')}}" method="post">
+            <img src="https://i.pinimg.com/originals/65/5d/2d/655d2da400a648abca600766a89deead.gif" id="bg">
+            <h1>Vehicle price prediction</h1>
+            <h3>No. of years : </h3><input id="first" name="year" type="number">
+            <h3>Enter the km driven : </h3><input id="second" name="km_driven" type="number" required="required">
+            <h3>Fuel type : </h3>
+            <select name="fuel_type" id="third" required="required">
+                <option value="Diesel">Diesel</option>
+                <option value="Petrol">Petrol</option>
+                <option value="CNG">CNG</option>
+                <option value="LPG">LPG</option>
+                <option value="Electric">Electric</option>
+            </select> 
+            <h3>Seller type :</h3>
+            <select name="seller_type" id="fourth" required="required">
+                <option value="Individual">Individual</option>
+                <option value="Dealer">Dealer</option>
+                <option value="Trustmark_dealer">Trustmark_dealer</option>
+            </select>
+            <h3>Transmission type :</h3>
+            <select name="transmission_transmission" id="fifth" required="required">
+                <option value="Manual">Manual</option>
+                <option value="Automatic">Automatic</option>
+            </select>
+            <h3>Owner types :</h3>
+            <select name="owner_type" id="sixth" required="required">
+                <option value="First_owner">First_owner</option>
+                <option value="Second_owner">Second_owner</option>
+                <option value="Fourth&Above_owner">Fourth&Above owner</option>
+                <option value="Third_owner">Third_owner</option>
+                <option value="Test_drive_car">Test_drive_car</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <button id="submit" name="submit">Submit</button>
+            <br>
+            <br>
+            <br>
+            <h1>{{result}}</h1>
+        </form>
+        
+        <style>
+            body{
+                background-color: #A09B97;
+                border: 7px double #A40000;
+                text-align: center;
+                padding: 100px;
+            }  
+            #bg{
+                background-position: center;
+                height: 500px;
+                width:100%;
+            }
+            #first {
+                width: 150px;
+                height: 23px;
+                text-align: center;
+                border-radius: 10px;
+                background-color:coral;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            #second{
+                width: 150px;
+                height: 23px;
+                text-align: center;
+                border-radius: 10px;
+                background-color:coral;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+
+            }
+            #third {
+                width: 103px;
+                height: 33px;
+                text-align: center;
+                border-radius: 10px;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            #third:hover{
+                background-color:coral;
+            }
+            #fourth {
+            width: 103px;
+            height: 33px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            }
+            #fourth:hover{
+                background-color:coral;
+            }
+            #fifth {
+            width: 103px;
+            height: 33px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            }
+            #fifth:hover{
+                background-color:coral;
+            }
+            #sixth {
+            width: 103px;
+            height: 33px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            }
+            #sixth:hover{
+                background-color:coral;
+            }
+            #submit{
+                -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 15px 14px 3px rgba(0,0,0,0.33); 
+                box-shadow: 0px 10px 13px -7px #000000, 5px 15px 14px 3px rgba(0,0,0,0.33);
+                width: 103px;
+                height: 33px;
+                text-align: center;
+                border-radius: 10px;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        </style>
+
+
+
+
+
+    </body>
+</html>
