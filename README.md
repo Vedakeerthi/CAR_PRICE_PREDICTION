@@ -41,8 +41,7 @@ The templates for the framework is done in html and css and the file is located 
 ## Links
 
  - #### Dataset link : https://www.kaggle.com/datasets/mohamedsamir3/car-price-details
- - #### Heroku link : 
- - #### Github link : https://github.com/Vedakeerthi/CAR_PRICE_PREDICTION
+ - #### Github link  : https://github.com/Vedakeerthi/CAR_PRICE_PREDICTION
 ## Color Reference
 
 | Color                  | Hex                                                                |
