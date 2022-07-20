@@ -77,6 +77,8 @@ Start the server
   python app.py
 ```
 
+Run the app on server by the local link provided
+
 
 ## License
 
