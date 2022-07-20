@@ -47,8 +47,9 @@ The templates for the framework is done in html and css and the file is located 
 
 | Color                  | Hex                                                                |
 | -----------------      | ------------------------------------------------------------------ |
-| Body of the web page   | ![#A09B97](https://via.placeholder.com/10/0a192f?text=+) #A09B97 |
-| Border of the web page | ![#A40000](https://via.placeholder.com/10/f8f8f8?text=+) #A40000 |
+| Body of the web page   | ![#A09B97](https://via.placeholder.com/15/A09B97/A09B97.png) #A09B97 |
+| Border of the web page | ![#A40000](https://via.placeholder.com/15/A40000/A40000.png) #A40000 |
+
 
 ## Features
 
