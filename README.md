@@ -70,8 +70,7 @@ The templates for the framework is done in html and css and the file is located 
 ├── model-gif.gif
 ├── app.py
 ├── main.ipynb
-├── Car_prediction.zip
-|   ├── Car_prediciton.pkl
+|── Car_prediciton.pkl
 ├── requirements.txt
 ```
  
