@@ -1,6 +1,22 @@
+# Car Price prediction
+
+## Table of Content
+  * [Demo](#demo)
+  * [Synopsis](#synopsis)
+  * [Appendix](#appendix)
+  * [Links](#links)
+  * [Directory Tree](#directory_tree)
+  * [Color Reference](#color_reference)
+  * [Features](#features)
+  * [Run Locally](#run_locally)
+  * [License](#license)
+  * [Technology Used](#technology_used)
+
+## Demo
+
 ![](model-gif.gif)
 
-# Car Price prediction
+## Synopsis
 
 Car price prediction program is executed with the help of car dekhko dataset, where based on the given features, such as the year the car bought and how much kilometers driven and the fuel type of the car, the seller type based on which the seller sells the car, either the seller may be individual or a dealer, and the owner of a car indicates a first owner, a second owner or a third and more owner which alters the selling price of the car, and the type by which car differs is the transmission of the car, which is either manual or automatic driven cars. This app is very much useful for the people who want to know how much the amount the car can be sold or bought.
 
@@ -42,7 +58,24 @@ The templates for the framework is done in html and css and the file is located 
 
  - #### Dataset link : https://www.kaggle.com/datasets/mohamedsamir3/car-price-details
  - #### Github link  : https://github.com/Vedakeerthi/CAR_PRICE_PREDICTION
-## Color Reference
+ 
+## Directory Tree <a name='directory_tree'></a>
+
+```
+├── template
+│   ├── home.html
+├── Procfile
+├── README.md
+├── CAR DETAILS FROM CAR DEKHO.csv
+├── model-gif.gif
+├── app.py
+├── main.ipynb
+├── Car_prediction.zip
+|   ├── Car_prediciton.pkl
+├── requirements.txt
+```
+ 
+## Color Reference <a name='color_reference'></a>
 
 | Color                  | Hex                                                                |
 | -----------------      | ------------------------------------------------------------------ |
@@ -57,7 +90,7 @@ The templates for the framework is done in html and css and the file is located 
 - Cross platform can be used on multiple operating system.
 
 
-## Run Locally
+## Run Locally <a name='run_locally'></a>
 
 Clone the project
 
@@ -84,3 +117,9 @@ Run the app on server by the local link provided
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/Vedakeerthi/CAR_PRICE_PREDICTION/blob/main/LICENSE)
 
+## Technology Used <a name='technology_used'></a>
+
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> &nbsp;
+<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> &nbsp;
+<a href='https://flask.palletsprojects.com/en/2.1.x/' target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"> </a> &nbsp;
+<a href='https://gunicorn.org/' targe="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/gunicorn/gunicorn-ar21.svg" alt="gunicorn" width="60" height="40"></a> &nbsp;
